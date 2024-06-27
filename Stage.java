@@ -12,9 +12,9 @@ public class Stage {
 	public Stage() {
 		try {
 		this.imageRunning = ImageIO
-				.read(new File("Assignment 2/A2-image-files/stage-normal.png"));
+				.read(new File("A2-image-files/stage-normal.png"));
 		this.imageOver = ImageIO
-				.read(new File("Assignment 2/A2-image-files/stage-gameover.png"));
+				.read(new File("A2-image-files/stage-gameover.png"));
 		} catch (IOException e) {
 		e.printStackTrace();
 		}
